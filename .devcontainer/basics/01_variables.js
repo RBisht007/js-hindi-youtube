@@ -1,3 +1,11 @@
+// JS is a Dynamically typed language
+// In JS we can declare variable with 3 keywords : var , let , const
+
+// var is function scoped
+// let and const are block scoped
+// var and let variable value can be changed but const variable value cannot be changed
+// var variable can be re-declared but let and const variable cannot be re-declared
+
 const accountId= 16574124
 let accountEmail= "rakhibisht@gmail.com"
 var accountPassword="gjff4hjf"
