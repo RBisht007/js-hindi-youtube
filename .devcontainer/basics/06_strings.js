@@ -37,3 +37,17 @@ console.log(myString.trimEnd()) // RAKHI BISHT , it removes the whitespace from 
 console.log(myString.repeat(2)) // RAKHI BISHTRAKHI BISHT , it repeats the string for the given number of times
 
 // in all above methods original string will not be changed because strings are immutable in nature , it has changed the copy of the string and returned it
+
+
+// cob=verting a string on array based on seperator dash 
+const myData= "Rakhi-Bisht-21"
+const myDataArr= myData.split("-")
+console.log(myDataArr) // [ 'Rakhi', 'Bisht', '21' ]
+console.log(typeof myDataArr) // object , array is a type of object
+
+// joining an array to string based on seperator space
+const myNewString= myDataArr.join(" ") // here we are joining the array elements with space
+console.log(myNewString) // Rakhi Bisht 21 // 
+console.log(typeof myNewString) // string // now it is string
+
+//*************************************END OF STRINGS************************************/
