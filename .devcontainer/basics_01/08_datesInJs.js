@@ -28,3 +28,18 @@ console.log(myDate4.toLocaleString()) // 1/23/2023, 5:03:00 AM (example output, 
 
 let datetime=new date("01-14-2023 04:30:00") // it will create a date object with specific date and time using different date string format
 console.log(datetime.toLocaleString()) // 1/14/2023, 4:30:00 AM (example output, will vary based on locale)
+
+let myTimestamp = Date.now() // it will return the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC
+console.log(myTimestamp) // 1674470400000 (example output, will vary based on current date and time) 
+console.log(myDate3.getTime()) 
+console.log(Math.floor(Date.now()/1000)) // it will return the number of seconds elapsed since January 1, 1970 00:00:00 UTC
+
+//
+let specificDate = new Date()
+console.log(specificDate.getFullYear()) // it will return the year of the date object
+console.log(specificDate.getMonth()) // it will return the month of the date object (0-11)
+console.log(specificDate.getDate()) // it will return the day of the month of the date object (1-31)
+console.log(specificDate.getDay()) // it will return the day of the week of the date object (0-6) (0=Sunday, 1=Monday, ..., 6=Saturday)
+console.log(specificDate.getHours()) // it will return the hours of the date object (0-23)
+console.log(specificDate.getMinutes()) // it will return the minutes of the date object (0-59)
+console.log(specificDate.getSeconds()) // it will return the seconds of the date object (0-59)
